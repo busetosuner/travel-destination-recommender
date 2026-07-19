@@ -6,6 +6,7 @@ The application analyzes users' travel preferences and recommends the most suita
 
 ---
 
+
 ## ✨ Features
 
 - 🧳 Interactive travel preference questionnaire
@@ -66,7 +67,12 @@ The recommendation engine follows four main steps:
 
 ## 📸 Screenshots
 
-> Screenshots of the application will be added here.
+<img width="1913" height="802" alt="image" src="https://github.com/user-attachments/assets/b2a9e367-6588-4edb-bfb4-2f0113cbabcf" />
+
+<img width="1912" height="767" alt="image" src="https://github.com/user-attachments/assets/3c5c9adc-9941-47e7-af77-7db21d858387" />
+
+<img width="1917" height="820" alt="image" src="https://github.com/user-attachments/assets/f6754f32-81e4-4999-ae35-7a1c0fc6b39f" />
+
 
 ---
 
