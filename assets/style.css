@@ -1,0 +1,123 @@
+/* Sayfanın genişliğini biraz artır */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 900px;
+}
+
+/* Başlık */
+h1 {
+    text-align: center;
+}
+
+/* Butonlar */
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Progress bar */
+.stProgress > div > div > div > div {
+    border-radius: 20px;
+}
+
+/* Kart görünümü */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 18px;
+    padding: 18px;
+}
+
+
+.stApp {
+    background-image:
+        linear-gradient(rgba(5, 10, 25, 0.58), rgba(5, 10, 25, 0.58)),
+        url("BACKGROUND_IMAGE");
+}
+
+.block-container {
+    max-width: 900px;
+    padding-top: 4rem;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: 28px;
+    padding: 48px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #0b1f3a;
+}
+
+.glass-card h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.glass-card p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.stButton > button {
+    border-radius: 14px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.question-card{
+    background: rgba(255,255,255,.82);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border-radius:28px;
+
+    padding:40px;
+
+    max-width:900px;
+
+    margin:auto;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.25);
+}
+
+.question-card h1,
+.question-card h2,
+.question-card h3,
+.question-card p,
+.question-card label,
+.question-card div{
+    color:#13294b;
+}
+
+.question-page-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px;
+    text-shadow: 0 3px 12px rgba(0,0,0,.45);
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255, 255, 255, 0.88) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 28px;
+    padding: 42px;
+    box-shadow: 0 24px 60px rgba(0,0,0,.30);
+    border: 1px solid rgba(255,255,255,.65);
+}
+
+
+div[data-testid="stVerticalBlockBorderWrapper"] h3,
+div[data-testid="stVerticalBlockBorderWrapper"] p,
+div[data-testid="stVerticalBlockBorderWrapper"] label,
+div[data-testid="stVerticalBlockBorderWrapper"] span {
+    color: #10233f !important;
+}
